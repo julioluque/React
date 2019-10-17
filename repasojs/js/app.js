@@ -1,7 +1,7 @@
 const descargarUsuarios = cantidad => new Promise((resolve, reject) => {
 
     // pasar cantidad a la api
-    const api = `https://randomuser.me/api/?results=${cantridad}&nat=us`;
+    const api = `https://randomuser.me/api/?results=${cantidad}&nat=us`;
 
     // llamado ajax
     const xhr = new XMLHttpRequest();
