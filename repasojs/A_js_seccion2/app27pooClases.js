@@ -1,13 +1,13 @@
 // escribiendo clases.
 
 class Tarea {
-    constructor (nombre, prioridad){
-        this.nombre = nombre;
-        this.prioridad = prioridad;
-    }
-    mostrar (){
-        return `${this.nombre} tiene una prioridad ${this.prioridad}`;
-    }
+   constructor (nombre, prioridad){
+       this.nombre = nombre;
+       this.prioridad = prioridad;
+   }
+   mostrar (){
+       return `${this.nombre} tiene una prioridad ${this.prioridad}`;
+   }
 }
 
 let tarea1 = new Tarea('Armar CV', 'Alta');
